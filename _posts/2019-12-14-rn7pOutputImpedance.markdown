@@ -2,7 +2,7 @@
 layout: post
 title:  "Redmi Note 7 Pro Headphone Output Impedance"
 date:   2019-12-14 12:05:15 +1100
-categories: outputImpedance phone electrical
+categories:
 ---
 TL:DR; The Redmi Note 7 Pro (violet) have an output impedance of 10 Ohms. This value is flat across the audible range.
 
