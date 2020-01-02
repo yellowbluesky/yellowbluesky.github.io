@@ -16,8 +16,8 @@ The TC-5 was attached to me Redmi Note 7 Pro. A 1 kHz tone was generated using t
 
 Two measurements were then taken from the output:
 
-	* One unloaded measurement
-	* One measurement across a 10 Ohm resistor acting as load
+* One unloaded measurement
+* One measurement across a 10 Ohm resistor acting as load
 
 #Results
 
