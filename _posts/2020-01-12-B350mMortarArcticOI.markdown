@@ -56,4 +56,12 @@ A spectrum analyzer was also run on the front panel and rear panel. I choose to 
 - Measurement setup is rather noisy: long unshielded interconnects and jumper wires
 - ADALM2000 analog inputs only have a 12 bit accuracy
 
+Rear panel:
+[![Rear panel unloaded spectrum analyzer trace]({{site.baseurl}}/images/2020-01-12-B350mMortarArcticOI/rearNoLoadBufferedSpectrum.png)]({{site.baseurl}}/images/2020-01-12-B350mMortarArcticOI/rearNoLoadBufferedSpectrum.png)
+
+Front panel:
+[![Front panel unloaded spectrum analyzer trace]({{site.baseurl}}/images/2020-01-12-B350mMortarArcticOI/frontNoLoadBufferedSpectrum.png)]({{site.baseurl}}/images/2020-01-12-B350mMortarArcticOI/frontNoLoadBufferedSpectrum.png)
+
+If those numbers are to be believed (which I don't), then there is only about 60dB of SNR, which is also fairly poor.
+
 I am aware of the constantly changing vertical scale on my scope traces, I apologize. Future posts will not have this oversight from me.
