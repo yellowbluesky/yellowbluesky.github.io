@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MSI B350M Mortat Arctic Output Impedance"
+title:  "MSI B350M Mortar Arctic Output Impedance"
 date:   2020-01-12 12:05:15 +1100
 categories: outputImpedance motherboard computer electrical measurement
 ---
