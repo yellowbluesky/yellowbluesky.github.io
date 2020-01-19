@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "TFZ TC-5 Measurement"
+date:   2020-01-19 12:05:15 +1100
+categories: outputImpedance phone electrical measurement
+---
+TL;DR: The TFZ TC-5 has an output impedance of 33 Ohms.
+
+The TFZ TC-5 is a USB C DAC and amplifier combo. I chose it because of its good (but sparse) specifications on paper, and its aesthetics which would match the rest of my portable audio setup (IEMatch + silver Litz cable).
+
+Oh first demo of it, I noticed that mt IEM's (B400) took on a very unnatural bright tilt to the sound. Suspecting an isssue with the output impedance of the TC-5, I took a set of measurements
+
+## Test setup
+
+The TFZ TC-5 was plugged into a Redmi Note 7 Pro. A 1 kHz tone was generated using this [website](https://www.szynalski.com/tone-generator/). Volume on the device and website were increased to their maximums.
+
+An Analog Devices ADALM2000 was used as an oscilloscope.
+
+
+Two measurements were then taken from the output:
+
+* One unloaded measurement
+* One measurement across a 10 Ohm resistor acting as load
+
+Additionally, a spectrum analyzer trace was taken to qualitatively make a statement on harmonic distortion.
+
+## Results
+
+Unloaded:
+[![Unloaded oscilloscope trace]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/unloaded.png)]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/unloaded.png)
+Unloaded voltage was measured as being 2.953 Volts.
+
+Loaded
+[![Loaded oscilloscope trace]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/loaded_10Ohm.png)]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/loaded_10Ohm.png)
+Loaded voltage was measured as being 0.686 Volts
+
+
+This computes to an output impedance 33.05 Ohms
+
+## Conclusion
+
+This is a very very poor result. An output impedance that high will significantly color the sound of headphones with an impedance lower than 264 Ohms, essentially disallowing the use of nearly all portable headphones.
+
+## Other
+Spectrum:
+[![Spectrum]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/spectrum.png)]({{site.baseurl}}/images/2020-01-19-TFZ_TC5/spectrum.png)
